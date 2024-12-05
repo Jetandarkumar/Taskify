@@ -60,8 +60,8 @@ body {
   border: none;
   display: flex;
   justify-content: center;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
 }
 
 .input span {

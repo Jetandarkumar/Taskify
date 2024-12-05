@@ -103,7 +103,7 @@ function TodoApp() {
 
         <div className="container_tasks">
           <div className="task_div1">
-            <h3>Actice Tasks </h3>
+            <h3>Todo</h3>
 
             {/* add this to new component */}
             {allTask.map((val, ind) => {
@@ -114,7 +114,7 @@ function TodoApp() {
                     <AiFillEdit
                       className="icons"
                       onClick={() => {
-                        toast.error("Fuckin just rewrite instead of editing", {
+                        toast.error("Yet to be implemented. just rewrite for now", {
                           position: "top-center",
                           closeOnClick: true,
                         });
@@ -134,7 +134,7 @@ function TodoApp() {
             })}
           </div>
           <div className="task_div2">
-            <h3>Actice Tasks </h3>
+            <h3>Tasks Done </h3>
             {/* add tasks here in such mess */}
             {comTasks.map((val, ind) => {
               return (
